@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xenir:MAR6 U1
+L preamp-mar6-rescue:MAR6-xenir U1
 U 1 1 62D05110
 P 5650 4100
 F 0 "U1" H 6044 4046 50  0000 L CNN
@@ -47,18 +47,18 @@ F 3 "" H 5600 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L xenir:Inductor L1
+L preamp-mar6-rescue:Inductor-xenir L1
 U 1 1 62D06805
 P 6150 3800
 F 0 "L1" V 6104 3853 50  0000 L CNN
-F 1 "Inductor" V 6195 3853 50  0000 L CNN
+F 1 "T37-43 10T" V 6195 3853 50  0000 L CNN
 F 2 "xenir:T37_Inductor" H 6150 3900 50  0001 C CNN
 F 3 "" H 6150 3900 50  0001 C CNN
 	1    6150 3800
 	0    1    1    0   
 $EndComp
 $Comp
-L xenir:Resistor R1
+L preamp-mar6-rescue:Resistor-xenir R1
 U 1 1 62D0720F
 P 6150 3300
 F 0 "R1" V 6121 3368 28  0000 L CNN
@@ -69,7 +69,7 @@ F 3 "" H 6150 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L xenir:Capacitor C1
+L preamp-mar6-rescue:Capacitor-xenir C1
 U 1 1 62D07F71
 P 5000 4200
 F 0 "C1" H 5000 4401 28  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "" H 5000 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L xenir:Capacitor C2
+L preamp-mar6-rescue:Capacitor-xenir C2
 U 1 1 62D0841D
 P 6550 4200
 F 0 "C2" H 6550 4401 28  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "" H 6550 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L xenir:Capacitor C3
+L preamp-mar6-rescue:Capacitor-xenir C3
 U 1 1 62D08B85
 P 6700 3750
 F 0 "C3" V 6671 3865 28  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "" H 6700 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L xenir:Cap_Polarized C4
+L preamp-mar6-rescue:Cap_Polarized-xenir C4
 U 1 1 62D09564
 P 7250 3750
 F 0 "C4" V 7221 3768 28  0000 L CNN
@@ -113,7 +113,7 @@ F 3 "" H 7250 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L xenir:Pad J3
+L preamp-mar6-rescue:Pad-xenir J3
 U 1 1 62D0A15C
 P 6000 2850
 F 0 "J3" H 6037 2905 50  0000 C CNN
@@ -183,7 +183,7 @@ F 3 "" H 7150 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L xenir:Pad J1
+L preamp-mar6-rescue:Pad-xenir J1
 U 1 1 62D0DBB4
 P 4550 4400
 F 0 "J1" V 4634 4182 50  0000 R CNN
@@ -194,7 +194,7 @@ F 3 "" H 4550 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L xenir:Pad J4
+L preamp-mar6-rescue:Pad-xenir J4
 U 1 1 62D0E480
 P 6700 4350
 F 0 "J4" V 6784 4132 50  0000 R CNN
@@ -205,7 +205,7 @@ F 3 "" H 6700 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L xenir:Pad J2
+L preamp-mar6-rescue:Pad-xenir J2
 U 1 1 62D0F60E
 P 5800 4700
 F 0 "J2" H 5732 4504 50  0000 R CNN
